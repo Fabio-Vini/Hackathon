@@ -5,13 +5,6 @@ Site desenvolvido em um evento(Hackathon), cujo tema era urna eletronica.
 
 
 # Fabio-Vini
-
-## Eai familia 👋
-Gosto de resolver problemas utilizando a programação.
-<br />
-Software Developer :computer:
-
-## Cursando Etec - 3º e ultimo módulo
   
 
  
