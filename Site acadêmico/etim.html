@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sala</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="home.html"><img src="img/communitec.png" alt=""></a>
+      <span>ETIM</span>
+      <button onclick="openModal()" id="new">ADICIONAR</i></button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>NOME</th>
+            <th>TURMA</th>
+            <th>SALA</th>
+            <th class="acao">EDITAR</th>
+            <th class="acao">EXCLUIR</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label for="m-nome1">NOME</label>
+          <input id="m-nome" type="text" required />
+  
+          <label for="m-turma1">TURMA</label>
+          <input id="m-funcao" type="text" required />
+  
+          <label for="m-sala1">SALA</label>
+          <input id="m-salario" type="text" required />
+          <button id="btnSalvar">SALVAR</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

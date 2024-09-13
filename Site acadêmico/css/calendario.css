@@ -1,0 +1,33 @@
+.menu-principal {
+	width: 100%;
+	background-color: #106FDB;
+	height: 60px;
+	position: absolute;
+	top: 0;
+}
+
+.menu-principal img {
+	position: absolute;	
+	left: 40%;
+	margin-top: -3%;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+
+.ano{
+	background-color: #fff;
+	margin-top: 260%;
+	display: inline;
+}
+
+.ano img {
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+}
