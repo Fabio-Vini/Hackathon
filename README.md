@@ -1,2 +1,2 @@
 # Hackathon
-Durante minhas três participações do Hackathon organizado pela ETEC, desenvolvi um projeto por evento. Hackathon é um evento que reúne alunos para trabalhar em projetos de desenvolvimento de software ou soluções tecnológicas, de forma rápida e colaborativa.
+During my three participations in the Hackathon organized by ETEC, I developed one project per event. Hackathon is an event that brings together students to work on software development projects or technological solutions, quickly and collaboratively.
