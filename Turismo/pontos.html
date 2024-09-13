@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="Img/logo.png" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script defer src="js/menu-burger.js"></script>
+    <script src="https://kit.fontawesome.com/0ad8e7ff25.js" crossorigin="anonymous"></script>
+   
+    <title>TURISMO</title>
+
+    <!-- modal -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <header class="header">
+       
+        
+        <nav class="nav">
+          <button
+            class="btn-menu"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger"></span>
+          </button>
+          <img id="logo" src="img/logosemfundo.png" class="img-fluid">
+          <ul class="menu" id="menu" role="menu">
+            <li>
+                <a href="index.html"><i class="fas fa-home"></i>INÍCIO</a>
+            </li>
+            <li>
+                <a href="hoteis.html"><i class="fas fa-hotel"></i>HOTEL</a>
+            </li>
+            <!-- <li>
+                <a href="pontos.html"><i class="fas fa-tree"></i>PONTOS TURISTICOS</a>
+            </li>   -->
+            <li>
+                <a href="cachoeira.html"><i class="fas fa-water"></i>CACHOEIRA</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+         <div class="container">
+        <br>
+        <br>
+        <div class="row" id="galeria">
+            <div class="col-sm-12">
+                    <h1 class="display-1 text-center">PONTOS TURISTICOS</h1>
+                    <p class="lead text-center">Contato com a natureza não falta</p>
+                    <hr>
+            </div>
+        </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/cama de anchieta(R. da Enseada, 6, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Cama de Anchieta</p>
+                        <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+          
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.26267186793!2d-46.80450678536744!3d-24.197578391277982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d56ae9599073%3A0xdf0a383e6d91d38c!2sCama%20de%20Anchieta!5e0!3m2!1spt-PT!2sbr!4v1634940886724!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Cama+de+Anchieta+-+R.+da+Enseada,+6,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1975784,-46.8045068,17z/data=!4m16!1m6!3m5!1s0x94d1d56ae9599073:0xdf0a383e6d91d38c!2sCama+de+Anchieta!8m2!3d-24.1975833!4d-46.8023181!4m8!1m0!1m5!1m1!1s0x94d1d56ae9599073:0xdf0a383e6d91d38c!2m2!1d-46.8023181!2d-24.1975833!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/casa de camara e cadeia (R. Cunha Moreira, 10 - Centro, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Casa da camara e Cadeia</p>
+                        <button onclick="document.getElementById('id02').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id02" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id02').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.6657811139394!2d-46.79140118536802!3d-24.18345139074284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d579d2144a9b%3A0xfc70084974284be9!2sCasa%20de%20C%C3%A2mara%20e%20Cadeia%20-%20Museu%20Concei%C3%A7%C3%A3o%20de%20Itanha%C3%A9m!5e0!3m2!1spt-PT!2sbr!4v1634941188891!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Casa+de+C%C3%A2mara+e+Cadeia+-+Museu+Concei%C3%A7%C3%A3o+de+Itanha%C3%A9m+-+R.+Cunha+Moreira,+10+-+Centro,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1834514,-46.7914012,17z/data=!4m16!1m6!3m5!1s0x94d1d579d2144a9b:0xfc70084974284be9!2sCasa+de+C%C3%A2mara+e+Cadeia+-+Museu+Concei%C3%A7%C3%A3o+de+Itanha%C3%A9m!8m2!3d-24.1835031!4d-46.7892511!4m8!1m0!1m5!1m1!1s0x94d1d579d2144a9b:0xfc70084974284be9!2m2!1d-46.7892511!2d-24.1835031!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+<hr>
+    <div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/convento-conceicao(Praça Carlos Botelho, sn - Centro, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Convento</p>
+                            <button onclick="document.getElementById('id03').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id03" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id03').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.687369906162!2d-46.79279548536791!3d-24.182694590714227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d579c87f8ccd%3A0x112a06fcbd54c0e5!2sConvento%20Nossa%20Senhora%20da%20Concei%C3%A7%C3%A3o%20de%20Itanha%C3%A9m!5e0!3m2!1spt-PT!2sbr!4v1634941392527!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Convento+Nossa+Senhora+da+Concei%C3%A7%C3%A3o+de+Itanha%C3%A9m+-+Pra%C3%A7a+Carlos+Botelho,+s%2Fn+-+Centro,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1826946,-46.7927955,17z/data=!4m16!1m6!3m5!1s0x94d1d579c87f8ccd:0x112a06fcbd54c0e5!2sConvento+Nossa+Senhora+da+Concei%C3%A7%C3%A3o+de+Itanha%C3%A9m!8m2!3d-24.1826995!4d-46.7906068!4m8!1m0!1m5!1m1!1s0x94d1d579c87f8ccd:0x112a06fcbd54c0e5!2m2!1d-46.7906068!2d-24.1826995!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/gruta nossa senhora de lourdes(R. da Enseada, 3 - Praia dos Sonhos, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Gruta Nossa senhora de Lourdes</p>
+                             <button onclick="document.getElementById('id04').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                          <!-- modal -->
+
+                    <div class="w3-container">
+                    <div id="id04" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id04').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.2638249839506!2d-46.806374885367475!3d-24.197537991276434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d56ae86d916b%3A0xb064d000ed274a91!2sGruta%20Nossa%20Senhora%20De%20Lourdes!5e0!3m2!1spt-PT!2sbr!4v1634941522539!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Gruta+Nossa+Senhora+De+Lourdes+-+R.+da+Enseada,+3+-+Praia+dos+Sonhos,+Itanha%C3%A9m+-+SP,+11740-000/@-24.197538,-46.8063749,17z/data=!4m16!1m6!3m5!1s0x94d1d56ae86d916b:0xb064d000ed274a91!2sGruta+Nossa+Senhora+De+Lourdes!8m2!3d-24.1975771!4d-46.8041908!4m8!1m0!1m5!1m1!1s0x94d1d56ae86d916b:0xb064d000ed274a91!2m2!1d-46.8041908!2d-24.1975771!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
+
+
+
+<div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/matriz de sant_ anna(Centro, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Matriz de Santanna</p>
+                            <button onclick="document.getElementById('id05').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id05" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id05').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.672382194181!2d-46.79077948536783!3d-24.183219990734077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d5831d414167%3A0xd25a680779863c48!2sIgreja.Matriz%20Santana%20de%20Itanha%C3%A9m!5e0!3m2!1spt-PT!2sbr!4v1634941642636!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Igreja.Matriz+Santana+de+Itanha%C3%A9m+-+Centro,+Itanha%C3%A9m+-+SP,+11740-000/@-24.18322,-46.7907795,17z/data=!4m16!1m6!3m5!1s0x94d1d5831d414167:0xd25a680779863c48!2sIgreja.Matriz+Santana+de+Itanha%C3%A9m!8m2!3d-24.1831677!4d-46.7886106!4m8!1m0!1m5!1m1!1s0x94d1d5831d414167:0xd25a680779863c48!2m2!1d-46.7886106!2d-24.1831677!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/Passarela-Cama-Anchieta(R. da Enseada, 6, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Passarela cama de anchieta</p>
+                            <button onclick="document.getElementById('id06').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+
+                        <!-- modal -->
+
+                    <div class="w3-container">
+                        <div id="id06" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <header class="w3-container w3-teal"> 
+                                    <span onclick="document.getElementById('id06').style.display='none'" 
+                                    class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Como chegar</h2>
+                                </header>
+                                <div class="w3-container">
+                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.26267186793!2d-46.80450678536744!3d-24.197578391277982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d56ae9599073%3A0xdf0a383e6d91d38c!2sCama%20de%20Anchieta!5e0!3m2!1spt-PT!2sbr!4v1634941748418!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                                <footer class="w3-container w3-teal">
+                                    <a href="https://www.google.com.br/maps/dir//Cama+de+Anchieta+-+R.+da+Enseada,+6,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1975784,-46.8045068,17z/data=!4m16!1m6!3m5!1s0x94d1d56ae9599073:0xdf0a383e6d91d38c!2sCama+de+Anchieta!8m2!3d-24.1975833!4d-46.8023181!4m8!1m0!1m5!1m1!1s0x94d1d56ae9599073:0xdf0a383e6d91d38c!2m2!1d-46.8023181!2d-24.1975833!3e1"><p>Vamos até la!!</p></a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+<hr>
+
+<div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/pedra-da-esfinge(R. Ipiranga, 556-632, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Pedra da Esfinge</p>
+                            <button onclick="document.getElementById('id05').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id05" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id05').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.20451968908!2d-46.80543449999999!3d-24.1996157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d51551a3bc9b%3A0x924fd58f5e37f9f8!2sItanha%C3%A9m%2C%20Pedra%20Da%20Esfinge%20-%20Morro%20Do%20Paranambuco!5e0!3m2!1spt-PT!2sbr!4v1634941940449!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Itanha%C3%A9m,+Pedra+Da+Esfinge+-+Morro+Do+Paranambuco+-+R.+Ipiranga,+556-632,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1996157,-46.8054345,17z/data=!4m16!1m6!3m5!1s0x94d1d51551a3bc9b:0x924fd58f5e37f9f8!2sItanha%C3%A9m,+Pedra+Da+Esfinge+-+Morro+Do+Paranambuco!8m2!3d-24.1996157!4d-46.8054345!4m8!1m0!1m5!1m1!1s0x94d1d51551a3bc9b:0x924fd58f5e37f9f8!2m2!1d-46.8054345!2d-24.1996157!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/monumento mulheres de areia(Av. Padre Anchieta, 47 - Praia dos Sonhos, Itanhaém - SP, 11740-000).jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Monumento mulheres de areia</p>
+                            <button onclick="document.getElementById('id06').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+
+                        <!-- modal -->
+
+                    <div class="w3-container">
+                        <div id="id06" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <header class="w3-container w3-teal"> 
+                                    <span onclick="document.getElementById('id06').style.display='none'" 
+                                    class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Como chegar</h2>
+                                </header>
+                                <div class="w3-container">
+                                   <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3639.3883934167197!2d-46.7940575!3d-24.193173299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e1!4m0!4m5!1s0x94d1d572fc1bd7d3%3A0xd5ebd6ef66c5d484!2sEst%C3%A1tua%20Mulheres%20de%20Areia%20-%20Av.%20Padre%20Anchieta%2C%2047%20-%20Praia%20dos%20Sonhos%2C%20Itanha%C3%A9m%20-%20SP%2C%2011740-000!3m2!1d-24.193173299999998!2d-46.7940575!5e0!3m2!1spt-PT!2sbr!4v1634942335364!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                                <footer class="w3-container w3-teal">
+                                    <a href="https://www.google.com.br/maps/dir//Est%C3%A1tua+Mulheres+de+Areia+-+Av.+Padre+Anchieta,+47+-+Praia+dos+Sonhos,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1931733,-46.7940575,17z/data=!4m16!1m6!3m5!1s0x94d1d572fc1bd7d3:0xd5ebd6ef66c5d484!2sEst%C3%A1tua+Mulheres+de+Areia!8m2!3d-24.1931733!4d-46.7940575!4m8!1m0!1m5!1m1!1s0x94d1d572fc1bd7d3:0xd5ebd6ef66c5d484!2m2!1d-46.7940575!2d-24.1931733!3e1"><p>Vamos até la!!</p></a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+
+<hr>
+
+
+</body>
+</html>

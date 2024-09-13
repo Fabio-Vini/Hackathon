@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="Img/logo.png" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/menu-burger.js"></script>
+    <script src="https://kit.fontawesome.com/0ad8e7ff25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>TURISMO</title>
+
+    <!-- modal -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="header">
+       
+        
+        <nav class="nav">
+          <button
+            class="btn-menu"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger"></span>
+          </button>
+          <img id="logo" src="img/logosemfundo.png" class="img-fluid">
+          <ul class="menu" id="menu" role="menu">
+            <li>
+                <a href="index.html"><i class="fas fa-home"></i>INÍCIO</a>
+            </li>
+            <!-- <li>
+                <a href="hoteis.html"><i class="fas fa-hotel"></i>HOTEL</a>
+            </li> -->
+            <li>
+                <a href="pontos.html"><i class="fas fa-tree"></i>PONTOS TURISTICOS</a>
+            </li>  
+            <li>
+                <a href="cachoeira.html"><i class="fas fa-water"></i>CACHOEIRA</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <div class="container">
+        <br>
+        <br>
+        <div class="row" id="galeria">
+            <div class="col-sm-12">
+                    <h1 class="display-1 text-center">HOTEIS</h1>
+                    <p class="lead text-center">Conheça dos melhores hoteis da cidade</p>
+                    <hr>
+            </div>
+        </div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/hoteis/hotel clube azul do mar (Av. do Telegrafo, 6315 - Santa Terezinha, Itanhaém - SP, 11740-000)R$222.00.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Clube Azul do mar</p>
+                        <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+          
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.2394155164507!2d-46.732025261115425!3d-24.15333883864071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce29e21f2b661d%3A0x3e08e82ac8623fb!2sHotel%20Clube%20Azul%20do%20Mar!5e0!3m2!1spt-BR!2sbr!4v1634871973318!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Hotel+Clube+Azul+do+Mar+-+Av.+do+Telegrafo,+6315+-+Santa+Terezinha,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1533388,-46.7320253,17z/data=!4m19!1m9!3m8!1s0x94ce29e21f2b661d:0x3e08e82ac8623fb!2sHotel+Clube+Azul+do+Mar!5m2!4m1!1i2!8m2!3d-24.1540785!4d-46.7336306!4m8!1m0!1m5!1m1!1s0x94ce29e21f2b661d:0x3e08e82ac8623fb!2m2!1d-46.7336306!2d-24.1540785!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/hoteis/Hotel-H-(Praça Doutor Procópio Ribeiro dos Santos, 134 - Cibratel 1 - Cibratel I, Itanhaém - SP, 11740-000)R$157.00.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Pousada Maré dos sonhos</p>
+                        <button onclick="document.getElementById('id02').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id02" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id02').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.2412646824732!2d-46.814410884395016!3d-24.19832839130863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d546ebf95601%3A0x502b13553c0d3916!2sPousada%20Mar%C3%A9%20dos%20Sonhos!5e0!3m2!1spt-BR!2sbr!4v1634872410124!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Pousada+Mar%C3%A9+dos+Sonhos+-+Pra%C3%A7a+Doutor+Proc%C3%B3pio+Ribeiro+dos+Santos,+134+-+Cibratel+1+-+Cibratel+I,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1983284,-46.8144109,17z/data=!4m19!1m9!3m8!1s0x94d1d546ebf95601:0x502b13553c0d3916!2sPousada+Mar%C3%A9+dos+Sonhos!5m2!4m1!1i2!8m2!3d-24.1983335!4d-46.8122288!4m8!1m0!1m5!1m1!1s0x94d1d546ebf95601:0x502b13553c0d3916!2m2!1d-46.8122288!2d-24.1983335!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+<hr>
+    <div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/hoteis/namoa pollastrini (Praça 22 de Abril, 38 - Santa Júlia, Itanhaém - SP, 11740-000) R$125.00.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Namoa Pollastrini</p>
+                            <button onclick="document.getElementById('id03').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id03" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id03').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.5678333923306!2d-46.794913284395456!3d-24.186884690875104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d570e649cbd7%3A0xfce461bba6329797!2sNamoa%20Pollastrini%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1634875129384!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Namoa+Pollastrini+Hotel+-+Pra%C3%A7a+22+de+Abril,+38+-+Santa+J%C3%BAlia,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1868847,-46.7949133,17z/data=!4m19!1m9!3m8!1s0x94d1d570e649cbd7:0xfce461bba6329797!2sNamoa+Pollastrini+Hotel!5m2!4m1!1i2!8m2!3d-24.1869157!4d-46.7927102!4m8!1m0!1m5!1m1!1s0x94d1d570e649cbd7:0xfce461bba6329797!2m2!1d-46.7927102!2d-24.1869157!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+
+
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/hoteis/pousada da brisa (R. Goiás, 11 - Cibratel II, Itanhaém - SP, 11740-000)R$118.00.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Pousada da Brisa</p>
+                             <button onclick="document.getElementById('id04').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                          <!-- modal -->
+
+                    <div class="w3-container">
+                    <div id="id04" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id04').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.9740477025066!2d-46.83326678439498!3d-24.20768849166328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d02aa56aa343bb%3A0xd61f8268901280b0!2sPousada%20da%20Brisa!5e0!3m2!1spt-BR!2sbr!4v1634875273278!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Pousada+da+Brisa+-+R.+Goi%C3%A1s,+11+-+Cibratel+II,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2076885,-46.8332668,17z/data=!4m19!1m9!3m8!1s0x94d02aa56aa343bb:0xd61f8268901280b0!2sPousada+da+Brisa!5m2!4m1!1i2!8m2!3d-24.2076934!4d-46.8310781!4m8!1m0!1m5!1m1!1s0x94d02aa56aa343bb:0xd61f8268901280b0!2m2!1d-46.8310781!2d-24.2076934!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<hr>
+
+
+
+<div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/hoteis/pousada maré dos sonhos (Praça Doutor Procópio Ribeiro dos Santos, 134 - Cibratel 1 - Cibratel I, Itanhaém - SP, 11740-000) R$350.00.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Pousada Maré dos Sonhos</p>
+                            <button onclick="document.getElementById('id05').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id05" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id05').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.2411250181895!2d-46.81441088501021!3d-24.198333284370438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d546ebf95601%3A0x502b13553c0d3916!2sPousada%20Mar%C3%A9%20dos%20Sonhos!5e0!3m2!1spt-BR!2sbr!4v1634876124517!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Pousada+Mar%C3%A9+dos+Sonhos+-+Pra%C3%A7a+Doutor+Proc%C3%B3pio+Ribeiro+dos+Santos,+134+-+Cibratel+1+-+Cibratel+I,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1983333,-46.8144109,17z/data=!4m19!1m9!3m8!1s0x94d1d546ebf95601:0x502b13553c0d3916!2sPousada+Mar%C3%A9+dos+Sonhos!5m2!4m1!1i2!8m2!3d-24.1983335!4d-46.8122288!4m8!1m0!1m5!1m1!1s0x94d1d546ebf95601:0x502b13553c0d3916!2m2!1d-46.8122288!2d-24.1983335!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="img/hoteis/pousada recanto das gaivotas (Av. Ver. Armando Ferreira, 338 - Gaivota - Praia, Itanhaém - SP, 11740-000)R$200.00.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Pousada Recanto das Gaivotas</p>
+                            <button onclick="document.getElementById('id06').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+
+                        <!-- modal -->
+
+                    <div class="w3-container">
+                        <div id="id06" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <header class="w3-container w3-teal"> 
+                                    <span onclick="document.getElementById('id06').style.display='none'" 
+                                    class="w3-button w3-display-topright">&times;</span>
+                                    <h2>Como chegar</h2>
+                                </header>
+                                <div class="w3-container">
+                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3638.034293947051!2d-46.89290848439447!3d-24.240579292910812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d02a363527ff75%3A0xce7c2eed93a149c6!2sPousada%20Recanto%20das%20Gaivotas!5e0!3m2!1spt-BR!2sbr!4v1634876569123!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                                <footer class="w3-container w3-teal">
+                                    <a href="https://www.google.com.br/maps/dir//Pousada+Recanto+das+Gaivotas+-+Av.+Ver.+Armando+Ferreira,+338+-+Gaivota+-+Praia,+Itanha%C3%A9m+-+SP,+11740-000/@-24.2405793,-46.8929085,17z/data=!4m19!1m9!3m8!1s0x94d02a363527ff75:0xce7c2eed93a149c6!2sPousada+Recanto+das+Gaivotas!5m2!4m1!1i2!8m2!3d-24.2406513!4d-46.8907767!4m8!1m0!1m5!1m1!1s0x94d02a363527ff75:0xce7c2eed93a149c6!2m2!1d-46.8907767!2d-24.2406513!3e1"><p>Vamos até la!!</p></a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</div>
+           
+
+
+</body>
+</html>
+

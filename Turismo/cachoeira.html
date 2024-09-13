@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="Img/logo.png" rel="icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script defer src="js/menu-burger.js"></script>
+    <script src="https://kit.fontawesome.com/0ad8e7ff25.js" crossorigin="anonymous"></script>
+   
+    <title>TURISMO</title>
+
+     <!-- modal -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <header class="header">
+       
+        
+        <nav class="nav">
+          <button
+            class="btn-menu"
+            aria-label="Abrir Menu"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger"></span>
+          </button>
+          <img id="logo" src="img/logosemfundo.png" class="img-fluid">
+          <ul class="menu" id="menu" role="menu">
+            <li>
+                <a href="index.html"><i class="fas fa-home"></i>INÍCIO</a>
+            </li>
+            <li>
+                <a href="hoteis.html"><i class="fas fa-hotel"></i>HOTEL</a>
+            </li>
+            <li>
+                <a href="pontos.html"><i class="fas fa-tree"></i>PONTOS TURISTICOS</a>
+            </li>  
+            <!-- <li>
+                <a href="cachoeira.html"><i class="fas fa-water"></i>CACHOEIRA</a>
+            </li> -->
+          </ul>
+        </nav>
+      </header>
+   
+        <div class="container">
+        <br>
+        <br>
+        <div class="row" id="galeria">
+            <div class="col-sm-12">
+                    <h1 class="display-1 text-center">CACHOEIRA</h1>
+                    <p class="lead text-center">Aventura com a natureza não é problema</p>
+                    <hr>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/tq.jpg" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Cachoeira Três-Quedas</p>
+                        <button onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+          
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id01" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.1191885609537!2d-46.7083078857505!3d-24.02686178445381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce2fab90affe1f%3A0xf3458a9f863b32cf!2sCachoeira%20Tr%C3%AAs-Quedas%20Itanha%C3%A9m-SP!5e0!3m2!1spt-PT!2sbr!4v1634945064511!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com/maps/dir//Cachoeira+Tr%C3%AAs-Quedas+Itanha%C3%A9m-SP+-+Estrada+Francisco+Paniquar+Filho,+Itanha%C3%A9m+-+SP,+11740-000/@-24.0268618,-46.7083079,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce2fab90affe1f:0xf3458a9f863b32cf!2m2!1d-46.7061192!2d-24.0268618"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="img/funil.png" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-right">
+                        <p>Cachoeira do Funil</p>
+                        <button onclick="document.getElementById('id02').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                    </div>
+                </div>
+
+                <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id02" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id02').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.0500914258737!2d-46.86324428537292!3d-23.99400818359564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfccf42897672f%3A0xc0f37b9209d87953!2sCachoeira%20do%20Funil!5e0!3m2!1spt-PT!2sbr!4v1634942636684!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com.br/maps/dir//Pousada+Mar%C3%A9+dos+Sonhos+-+Pra%C3%A7a+Doutor+Proc%C3%B3pio+Ribeiro+dos+Santos,+134+-+Cibratel+1+-+Cibratel+I,+Itanha%C3%A9m+-+SP,+11740-000/@-24.1983284,-46.8144109,17z/data=!4m19!1m9!3m8!1s0x94d1d546ebf95601:0x502b13553c0d3916!2sPousada+Mar%C3%A9+dos+Sonhos!5m2!4m1!1i2!8m2!3d-24.1983335!4d-46.8122288!4m8!1m0!1m5!1m1!1s0x94d1d546ebf95601:0x502b13553c0d3916!2m2!1d-46.8122288!2d-24.1983335!3e1"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+<hr>
+    <div class="container">
+        <div class="row">
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="Img/toboga.png" class="img-fluid">
+                        </div>
+                        <div class="card-footer text-right">
+                            <p>Cachoeira do Tobogã</p>
+                            <button onclick="document.getElementById('id03').style.display='block'" class="btn btn-primary btn-sm">Como chegar</button>
+                        </div>
+                    </div>
+
+                    <!-- modal -->
+
+                <div class="w3-container">
+                    <div id="id03" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <header class="w3-container w3-teal"> 
+                                <span onclick="document.getElementById('id03').style.display='none'" 
+                                class="w3-button w3-display-topright">&times;</span>
+                                <h2>Como chegar</h2>
+                            </header>
+                            <div class="w3-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.544576919833!2d-46.63613588501431!3d-23.976539484478437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce25e4894905a1%3A0x8e0bbfae4a4c70fd!2sCachoeira%20do%20Tobog%C3%A3!5e0!3m2!1spt-PT!2sbr!4v1634945462690!5m2!1spt-PT!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                                <a href="https://www.google.com/maps/dir//Cachoeira+do+Tobog%C3%A3+-+Rio+Branco+-+Embur%C3%A1,+Itanha%C3%A9m+-+SP/@-23.9765395,-46.6361359,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce25e4894905a1:0x8e0bbfae4a4c70fd!2m2!1d-46.6339472!2d-23.9765395?hl=pt-PT"><p>Vamos até la!!</p></a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+</body>
+</html>
